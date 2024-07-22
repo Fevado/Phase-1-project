@@ -1,8 +1,8 @@
 // Creating a variable for the API KEY and URL
-const apiKey= "4272e49c4a4cc211baf48675dc8d1cfe";
+//const apiKey= "4272e49c4a4cc211baf48675dc8d1cfe";
 const apiUrl= "https://api.openweathermap.org/data/2.5/weather?units=metric&q=";
-// require('dotenv').config()
-// const apiKey=process.env.API_KEY
+ require('dotenv').config()
+const apiKey=process.env.API_KEY
 
 // Selecting Elements for manipulating the DOM
 
